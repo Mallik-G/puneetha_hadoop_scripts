@@ -1,5 +1,3 @@
-# puneetha_hadoop_scripts
-
 # What is it?
 Script to launch beeline shell with connection string and custom parameters
 
