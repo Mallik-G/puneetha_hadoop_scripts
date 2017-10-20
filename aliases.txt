@@ -1,5 +1,4 @@
 # Place below statements in ~/.bashrc
-```sh
 # Hadoop commands alias
 alias hfs='hadoop fs '
 alias hll='hadoop fs -ls '
@@ -8,9 +7,6 @@ alias hlc='hadoop fs -ls -C '
 alias htext='hadoop fs -text '
 alias hdu='hadoop fs -du -h '
 alias hdus='hadoop fs -du -h -s '
-```
 
 # Source the .bashrc file to activate the aliases
-```sh
 $ source ~/.bashrc
-```
