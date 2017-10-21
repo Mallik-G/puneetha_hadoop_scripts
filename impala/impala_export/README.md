@@ -1,5 +1,5 @@
 # What is it?
-Script to launch impala shell with connection string
+Script to e impala shell, pass sql script and save the output into a file
 
 
 # How to run
@@ -7,16 +7,16 @@ Script to launch impala shell with connection string
     /home/cloudera/impala_scripts/
 ### Run as below 
 ```sh
-$ bash impala_shell.sh
+$ bash impala_export.sh
 
 (or) you can create alias of this by adding below line in the file
 $ vim ~/.bashrc
 # All other commands 
 # Append below line for alias 
-alias impala="bash /home/cloudera/impala_scripts/impala_shell.sh"
+alias impala_export="bash /home/cloudera/impala_scripts/impala_export.sh"
 
 $ source ~/.bashrc
 
-# To login
-$ impala
+# To use
+$ impala_export --username <username> --input <input_impala_script.sql>  --output <output_location.out> --delimeter <output_delimeter>
 ```
