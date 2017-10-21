@@ -1,5 +1,5 @@
 # What is it?
-Script to e impala shell, pass sql script and save the output into a file
+Script to launch impala shell, pass sql script and save the output into a file
 
 
 # How to run
@@ -7,7 +7,7 @@ Script to e impala shell, pass sql script and save the output into a file
     /home/cloudera/impala_scripts/
 ### Run as below 
 ```sh
-$ bash impala_export.sh
+$ bash impala_export.sh --username <username> --input <input_impala_script.sql>  --output <output_location.out> --delimeter <output_delimeter>
 
 (or) you can create alias of this by adding below line in the file
 $ vim ~/.bashrc

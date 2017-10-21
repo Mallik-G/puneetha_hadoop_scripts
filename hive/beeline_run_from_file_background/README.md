@@ -10,7 +10,7 @@ Once you are logged in to Hive, you need that password file.
     /home/cloudera/beeline_scripts/
 ### Run as below 
 ```sh
-$ bash hive_batch.sh
+$ bash hive_batch.sh <input_scrip.sql>
 
 (or) you can create alias of this by adding below line in the file
 $ vim ~/.bashrc
