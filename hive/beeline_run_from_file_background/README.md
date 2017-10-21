@@ -21,5 +21,5 @@ alias hive_batch="bash /home/cloudera/beeline_scripts/hive_batch.sh"
 $ source ~/.bashrc
 
 # To login
-$ hive_batch
+$ hive_batch <input_scrip.sql>
 ```
