@@ -3,7 +3,7 @@ Script to track yarn job
 
 # How to run
 ### Below scripts are kept in location in this example(You can change it wherever you want to keep):
-    /home/cloudera/job_scripts/
+    /home/cloudera/jobs_scripts/
 
 ### Run as below 
 ```sh
@@ -13,7 +13,7 @@ $ bash hlogs.sh <applicationId>
 $ vim ~/.bashrc
 # All other commands 
 # Append below line for alias 
-alias hlogs="bash /home/cloudera/job_scripts/hlogs.sh"
+alias hlogs="bash /home/cloudera/jobs_scripts/hlogs.sh"
 
 $ source ~/.bashrc
 
